@@ -122,22 +122,35 @@ h1:hover {
   transition: 0.25s;
 }
 
-/* tombol WhatsApp */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
 .wa {
-  background: #25D366;
+    background-color: #25D366;
 }
 
 .wa:hover {
-  background: #1da851;
-  transform: scale(1.05);
+    background-color: #1ebe5d;
 }
 
 /* tombol Instagram */
 .ig {
-  background: #E1306C;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 
 .ig:hover {
-  background: #b82658;
-  transform: scale(1.05);
+    opacity: 0.8;
 }
